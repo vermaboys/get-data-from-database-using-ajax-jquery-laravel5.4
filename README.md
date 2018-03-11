@@ -100,8 +100,22 @@ Add path of helpers.php in composer.json
 Run command on terminal composer dump-autoload
 ```
 
+```
+Create employee_listing.blade.php and employee_table.blade files in resources\views\admin folder
 
+Copy code of employee_listing.blade file in resources\views\admin folder and paste in your employee_listing.blade(resources\views\admin)
 
+Copy code of employee_table.blade file in resources\views\admin folder and paste in your employee_table.blade(resources\views\admin)
+```
 
+```
+Add route in routes/web.php file that is given below
 
+Route::get('/admin/employee', 'EmployeeController@employeeLising');
+```
 
+```
+Create controller => php artisan make:controller EmployeeController
+
+Copy of EmployeeController file in app\Http\Controllers folder and paste in your EmployeeController controller
+```
