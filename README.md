@@ -1,6 +1,6 @@
 # get-data-from-database-using-ajax-jquery-laravel5.4
 
-You can get data from database using git clone
+# You can get data from database using git clone
 
 Git clone:- git clone https://github.com/vermaboys/get-data-from-database-using-ajax-jquery-laravel5.4.git
 
@@ -8,7 +8,7 @@ Run command on terminal php artisan migrate
 
 Run command on terminal php artisan db:seed
 
-You can also get data from database using following steps which is given below
+# You can also get data from database using following steps which is given below
 
 Include css in your css file which is given below
 
